@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File System Tool</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+            background-color: #f0f0f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+        input {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            margin: 10px;
+            padding: 12px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        pre {
+            text-align: left;
+            margin-top: 20px;
+            background: #f4f4f4;
+            padding: 10px;
+            display: inline-block;
+            border-radius: 5px;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>File System Tool</h2>
+
+        <label for="directory">Directory:</label>
+        <input type="text" id="directory" placeholder="Enter directory path">
+        
+        <label for="backup_directory">Backup Directory:</label>
+        <input type="text" id="backup_directory" placeholder="Enter backup path">
+
+        <button onclick="scan()">Scan Files</button>
+        <button onclick="recover()">Recover Files</button>
+        <button onclick="optimize()">Optimize Files</button>
+
+        <pre id="output"></pre>
+    </div>
+    
+    <script>
+        function scan() {
+            let formData = new FormData();
+            formData.append("directory", document.getElementById("directory").value);
+
+            fetch("/scan", { method: "POST", body: formData })
+            .then(response => response.json())
+            .then(data => document.getElementById("output").innerText = JSON.stringify(data, null, 2));
+        }
+
+        function recover() {
+            let formData = new FormData();
+            formData.append("directory", document.getElementById("directory").value);
+            formData.append("backup_directory", document.getElementById("backup_directory").value);
+
+            fetch("/recover", { method: "POST", body: formData })
+            .then(response => response.json())
+            .then(data => document.getElementById("output").innerText = JSON.stringify(data, null, 2));
+        }
+
+        function optimize() {
+            let formData = new FormData();
+            formData.append("directory", document.getElementById("directory").value);
+
+            fetch("/optimize", { method: "POST", body: formData })
+            .then(response => response.json())
+            .then(data => document.getElementById("output").innerText = JSON.stringify(data, null, 2));
+        }
+    </script>
+</body>
+</html>

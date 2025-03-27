@@ -1,0 +1,64 @@
+2025-03-27 07:53:42,320 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 07:53:42,320 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 07:53:42,322 - INFO -  * Restarting with stat
+2025-03-27 07:53:42,958 - WARNING -  * Debugger is active!
+2025-03-27 07:53:42,966 - INFO -  * Debugger PIN: 598-390-839
+2025-03-27 07:54:35,024 - INFO - 127.0.0.1 - - [27/Mar/2025 07:54:35] "GET / HTTP/1.1" 200 -
+2025-03-27 07:54:35,132 - INFO - 127.0.0.1 - - [27/Mar/2025 07:54:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 07:54:42,225 - INFO - 127.0.0.1 - - [27/Mar/2025 07:54:42] "POST /scan HTTP/1.1" 200 -
+2025-03-27 07:57:28,735 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 07:57:28,738 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 07:57:28,738 - INFO -  * Restarting with stat
+2025-03-27 07:57:29,104 - WARNING -  * Debugger is active!
+2025-03-27 07:57:29,117 - INFO -  * Debugger PIN: 598-390-839
+2025-03-27 08:08:18,011 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 08:08:18,011 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 08:14:26,851 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 08:14:26,851 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 08:14:26,851 - INFO -  * Restarting with stat
+2025-03-27 08:14:27,240 - WARNING -  * Debugger is active!
+2025-03-27 08:14:27,256 - INFO -  * Debugger PIN: 598-390-839
+2025-03-27 08:14:44,724 - INFO - 127.0.0.1 - - [27/Mar/2025 08:14:44] "GET / HTTP/1.1" 200 -
+2025-03-27 08:14:44,839 - INFO - 127.0.0.1 - - [27/Mar/2025 08:14:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 08:16:39,091 - INFO - 127.0.0.1 - - [27/Mar/2025 08:16:39] "POST /recover HTTP/1.1" 200 -
+2025-03-27 08:17:11,615 - INFO - 127.0.0.1 - - [27/Mar/2025 08:17:11] "POST /scan HTTP/1.1" 200 -
+2025-03-27 08:17:18,145 - INFO - 127.0.0.1 - - [27/Mar/2025 08:17:18] "POST /scan HTTP/1.1" 200 -
+2025-03-27 08:17:19,271 - INFO - 127.0.0.1 - - [27/Mar/2025 08:17:19] "POST /scan HTTP/1.1" 200 -
+2025-03-27 08:17:46,468 - INFO - 127.0.0.1 - - [27/Mar/2025 08:17:46] "POST /scan HTTP/1.1" 200 -
+2025-03-27 08:18:09,027 - INFO - 127.0.0.1 - - [27/Mar/2025 08:18:09] "POST /scan HTTP/1.1" 200 -
+2025-03-27 08:18:12,780 - INFO - 127.0.0.1 - - [27/Mar/2025 08:18:12] "POST /recover HTTP/1.1" 200 -
+2025-03-27 08:18:14,334 - INFO - 127.0.0.1 - - [27/Mar/2025 08:18:14] "POST /scan HTTP/1.1" 200 -
+2025-03-27 08:18:15,432 - INFO - 127.0.0.1 - - [27/Mar/2025 08:18:15] "POST /optimize HTTP/1.1" 200 -
+2025-03-27 08:19:41,197 - INFO - 127.0.0.1 - - [27/Mar/2025 08:19:41] "GET / HTTP/1.1" 200 -
+2025-03-27 08:19:41,284 - INFO - 127.0.0.1 - - [27/Mar/2025 08:19:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 08:20:03,434 - INFO - 127.0.0.1 - - [27/Mar/2025 08:20:03] "POST /scan HTTP/1.1" 200 -
+2025-03-27 08:20:04,898 - INFO - 127.0.0.1 - - [27/Mar/2025 08:20:04] "POST /recover HTTP/1.1" 200 -
+2025-03-27 08:20:06,662 - INFO - 127.0.0.1 - - [27/Mar/2025 08:20:06] "POST /scan HTTP/1.1" 200 -
+2025-03-27 08:23:21,657 - INFO -  * Detected change in 'D:\\4Sem PM\\OS\\FileSystemTool\\app.py', reloading
+2025-03-27 08:23:21,713 - INFO -  * Restarting with stat
+2025-03-27 08:23:22,146 - WARNING -  * Debugger is active!
+2025-03-27 08:23:22,146 - INFO -  * Debugger PIN: 598-390-839
+2025-03-27 08:24:02,727 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 08:24:02,727 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 08:24:02,727 - INFO -  * Restarting with stat
+2025-03-27 08:24:03,137 - WARNING -  * Debugger is active!
+2025-03-27 08:24:03,144 - INFO -  * Debugger PIN: 598-390-839
+2025-03-27 15:16:49,251 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-27 15:16:49,252 - INFO - [33mPress CTRL+C to quit[0m
+2025-03-27 15:16:49,252 - INFO -  * Restarting with stat
+2025-03-27 15:16:49,551 - WARNING -  * Debugger is active!
+2025-03-27 15:16:49,551 - INFO -  * Debugger PIN: 598-390-839
+2025-03-27 15:17:00,395 - INFO - 127.0.0.1 - - [27/Mar/2025 15:17:00] "GET / HTTP/1.1" 200 -
+2025-03-27 15:17:00,450 - INFO - 127.0.0.1 - - [27/Mar/2025 15:17:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-03-27 15:18:56,447 - INFO - 127.0.0.1 - - [27/Mar/2025 15:18:56] "POST /scan HTTP/1.1" 200 -
+2025-03-27 15:18:59,289 - INFO - 127.0.0.1 - - [27/Mar/2025 15:18:59] "POST /scan HTTP/1.1" 200 -
+2025-03-27 15:19:01,859 - INFO - 127.0.0.1 - - [27/Mar/2025 15:19:01] "POST /recover HTTP/1.1" 200 -
+2025-03-27 15:19:04,080 - INFO - 127.0.0.1 - - [27/Mar/2025 15:19:04] "POST /optimize HTTP/1.1" 200 -
+2025-03-27 15:19:32,014 - INFO - 127.0.0.1 - - [27/Mar/2025 15:19:32] "POST /scan HTTP/1.1" 200 -
+2025-03-27 15:19:33,358 - INFO - 127.0.0.1 - - [27/Mar/2025 15:19:33] "POST /scan HTTP/1.1" 200 -
