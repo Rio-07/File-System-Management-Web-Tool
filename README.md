@@ -1,63 +1,24 @@
-File System Recovery and Optimization Tool 🛠️
-Overview
-The File System Recovery and Optimization Tool is a Python-based utility designed to help users scan, recover, and optimize files within a given directory. It efficiently scans for missing or fragmented files, restores them from a backup, and renames files systematically to ensure a well-organized structure.
+# File System Management Web Tool 🛠️  
 
-This tool is useful for:
+**Repository:** [Rio-07/File-System-Management-Web-Tool](https://github.com/Rio-07/File-System-Management-Web-Tool)  
 
-Data recovery from backup directories
+## Overview  
+The **File System Management Web Tool** is a Python-powered utility with a web-based interface that helps users efficiently **scan, recover, and optimize** files within a given directory. It simplifies **file organization**, **data recovery**, and **system maintenance**, making it a valuable tool for managing large numbers of files.  
 
-File organization by renaming files in a structured manner
+### Features ✨  
 
-Maintaining system integrity by logging operations
+✅ **Scan Filesystem** – Lists all files in a given directory and detects missing files.  
+✅ **Recover Files** – Restores missing files from a backup folder.  
+✅ **Optimize Filesystem** – Renames files in a structured format.  
+✅ **Logging System** – Keeps records of all activities in `filesystem_tool.log`.  
+✅ **User-Friendly Web Interface** – Simple UI to manage operations via a browser.  
+✅ **Cross-Platform Support** – Works on Windows, macOS, and Linux.  
 
-It also features a simple web interface using HTML, CSS, and JavaScript to interact with the backend seamlessly.
+---
 
-Features ✨
-✅ Scan Filesystem – Lists all files in a given directory and checks for missing or corrupted files.
-✅ Recover Files – Restores files from a backup location to the main directory.
-✅ Optimize Filesystem – Renames and organizes files for better readability.
-✅ Logging – Keeps a record of all operations in a log file (filesystem_tool.log).
-✅ User-Friendly Web Interface – Provides a simple webpage to interact with the tool instead of using the terminal.
+## Installation 🛠️  
 
-Installation 🛠️
-1. Clone the Repository
-sh
-Copy
-Edit
-git clone https://github.com/yourusername/filesystem-tool.git
-cd filesystem-tool
-2. Install Dependencies
-Ensure you have Python installed (Python 3.x recommended). Then, install the required packages:
-
-sh
-Copy
-Edit
-pip install -r requirements.txt
-3. Run the Tool
-sh
-Copy
-Edit
-python app.py
-4. Access the Web Interface
-Open index.html in your browser to use the web-based interface.
-
-Usage 🚀
-Command-Line Usage
-1️⃣ Run the script and provide the directory paths when prompted.
-
-sh
-Copy
-Edit
-python app.py
-2️⃣ Follow the instructions to scan, recover, and optimize your filesystem.
-
-Web Interface Usage
-1️⃣ Open index.html in a browser.
-2️⃣ Enter the directory paths and choose an operation:
-
-Scan to list all files.
-
-Recover to restore files from backup.
-
-Optimize to rename and structure files.
-
+### 1. Clone the Repository  
+```sh
+git clone https://github.com/Rio-07/File-System-Management-Web-Tool.git
+cd File-System-Management-Web-Tool
